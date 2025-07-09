@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Mot de Passe</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Générateur de Mot de Passe</h1>
+        <h3>Mot de passe généré :</h3>
+        <div class="resultat-container">
+            <p id="resultat"> </p>
+          <button id="copierBtn" onclick="copierMotDePasse()" title="Copier" style="margin-right:8px;cursor:pointer;">Copier</button>
+        </div>
+
+        <div class="button-container">
+            <button onclick="generer()">Générer un Mot de Passe</button>
+        <button onclick="rafraichir()">Rafraîchir la page</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
