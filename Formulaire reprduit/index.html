@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dévoir en JavaScript</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fonts/css/all.css">
+</head>
+
+<body>
+  <div class="contenaire">
+
+    <div id="" class="div-from">
+      <div class="div-forU">
+        <h2 class="h1-form">Creation de compte</h2>
+        <form class="form" method="get">
+          <div class="message"></div>
+          <div class="form-control">
+            <label class="form-label" for="username">Nom d'utilisateur</label>
+            <input class="form-input" type="text" id="username" placeholder="Entrer votre nom">
+            <div class="usernameError"></div>
+          </div>
+          <div class="form-control">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" type="email" id="email" placeholder="Entrer votre email">
+            <div class="emailError"></div>
+
+          </div>
+          <div class="form-control">
+            <label class="form-label" for="password">Mot de passe</label>
+            <input class="form-input" type="password" id="password" placeholder="Entrer votre mot de passe">
+            <div class="passwordError"></div>
+
+          </div>
+          <div class="form-control">
+            <label class="form-label" for="passComfirm">Confirmer votre mot de passe</label>
+            <input class="form-input" type="password" id="passComfirm" placeholder="Confirmer votre mot de passe">
+            <div class="confirmError"></div>
+
+          </div>
+          <div class="form-checkbox">
+            <input class="input-checkbox" type="checkbox" id="checkboxSend">
+            <label class="label-chwxkbox" for="checkboxSend">Recevoir des nouvelles et des mises à jour</label>
+            <div class="sendError"></div>
+
+          </div>
+          <div class="form-checkbox">
+            <input class="input-checkbox" type="checkbox" id="checkboxSendAgreed">
+            <label class="label-chwxkbox" for="checkboxSendAgreed">Accepter les <a href="">termes et conditions</a></label>
+            <div class="agreedError"></div>
+
+          </div>
+          <div>
+            <button class="form-btn" type="submit">Créer un compte</button>
+          </div>
+
+        </form>
+        <div class="singn">
+          <p><a href="">Ou s'inscrire avec</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

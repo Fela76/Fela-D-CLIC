@@ -1,0 +1,12 @@
+ 1. Créer des variables et demander à l'utilisateur d'entrer chaque valeur:
+   - prenom (chaîne)
+   - nom (chaîne) 
+   - age (nombre) 
+   - estEtudiant (booléen) 
+   - anneeNaissance (number)    
+ 2. Utiliser les opérateurs :
+    - pour calculer l'âge, et pour verifier si il est etudiant ou pas.
+3. Utiliser la concaténation pour afficher la phrase :
+   - "Bonjour, je m'appelle Mamadou Baldé. J'ai 22 ans. Et Je suis étudiant ."
+4- Utiliser le typeof :
+   - pour afficher les types de chaque variable.
